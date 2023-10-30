@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Profile - Agha Khan Hospital</title>
+</head>
+<body>
+    <header>
+        <h1 style="background-color:pink">Agha Khan Hospital</h1>
+    </header>
+    <section>
+        <h2 style="background-color:pink">Patient Profile</h2>
+       
+        <img src="C:\Users\Famous\Desktop\patientprofile.JPG" alt="patient lodge" STYLE="FLOAT:RIGHT" HEIGHT="150" WIDTH="500">
+        <table>
+            <tr>
+                <td>Patient Name:</td>
+                <td><input type="text" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><select for="Gender">
+<option name="select">Select Gender</option>
+<option name="male">Male</option>
+<option name="female">Female</option>
+</td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" name="age"></td>
+            </tr>
+            <tr>
+                <td>Medical Record Number:</td>
+                <td><input type="number" name="number"></td>
+            </tr>
+            <tr>
+                <td>Admission Date:</td>
+                <td><input type="date" name="date" placeholder="Date"></td>
+            </tr>
+            <tr>
+                <td>Department</TD>
+                <td><select for="department">
+                       <option name="select" value="department">Select department</option>
+                       <option name="cardiology" value="department">Cardiology</option>
+                       <option name="skin" value="department">Skin</option>
+                       <option name="general surgery" value="department">General surgery</option>
+                       <option name="psychiatrist" value="department">Psychiatrist</option>
+                       <option name="testestology" value="department">Testestology</option>
+            </tr>
+
+                <td>Photo</td>
+                <td><form action="/action.php" id="101">
+                      <input type="file" id="101">
+                      <input type="submit">
+                    </form>
+                </td>
+        </table>
+    </section>
+    <section>
+        <h2 style="background-color:pink">Medical History</h2>
+        <p><input type="text" placeholder="Name"> has a history of <input type="text" placeholder="Disease type">.</p>
+    </section>
+    <section>
+        <h2 style="background-color:pink">Treatment Plan</h2>
+        <p><input type="text" placeholder="Name"> is currently being treated for <input type="text" placeholder="Disease type"> and is prescribed medication.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Agha Khan Hospital</p>
+    </footer>
+</body>
+</html>
